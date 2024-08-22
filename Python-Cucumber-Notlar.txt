@@ -1,0 +1,39 @@
+.feature dosyaları içerisinde senaryolar yazılır
+
+Scenario: Title/Shor description
+	Given: [A Precondition]
+	When: [Some Event]
+	Then: [Some Outcome]
+	
+Feature file -> bir çok senaryoya sahip olabilir .feature uzantılıdır
+
+Scenario -> Senaryo birden fazla step e sahip olabilir
+
+Spets -> her step tek bir aksiyon içerir. Gherkin dili kullanılır.
+	
+
+	
+Örnek:
+
+Feature: Monster tr sitesi login
+
+Scenario: Monster TR sitesi mail ve şifre ile başarılı login
+	Given I launch chrome browser
+	When I open monster tr login page
+	And Enter mail and password
+	And Click login button
+	Then User must successfully login to website
+	And Close browser
+	
+	
+	
+------------------------------
+ChromeDriver ı scripts klasörüne kopylarsak aşağıdaki gibi çağırabiliriz.
+    context.driver = webdriver.Chrome()
+------------------------------
+Kullanıcı bilgileri
+nurduzutru@gufum.com
+Test.123
+https://tempail.com/u/16/nurduzutru-0c8e2af462/	
+	
+	
