@@ -30,10 +30,4 @@ Scenario: Monster TR sitesi mail ve şifre ile başarılı login
 ------------------------------
 ChromeDriver ı scripts klasörüne kopylarsak aşağıdaki gibi çağırabiliriz.
     context.driver = webdriver.Chrome()
-------------------------------
-Kullanıcı bilgileri
-nurduzutru@gufum.com
-Test.123
-https://tempail.com/u/16/nurduzutru-0c8e2af462/	
-	
 	
